@@ -1,3 +1,4 @@
+import './Main.css'
 
 const PlayAgain = (props) => {
     const mystyle = {
@@ -11,7 +12,7 @@ const PlayAgain = (props) => {
     }
     document.body.style.backgroundColor = "black";
     return(
-        <button className="button" onClick={()=>props.setGame(true)} style = {mystyle}></button>
+        <button className="button" onClick={()=>props.setGame(true)} style = {mystyle}><h1 className='h1'>PLAY AGAIN</h1></button>
     )
 }
 

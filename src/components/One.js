@@ -1,18 +1,54 @@
 import './Main.css'
 
 const One = (props) => {
-    const elements = [<div className="box 1st" onClick={()=>props.changeTemp(props.First, props.setFirst)}>First</div>,
-                    <div className="box 2nd" onClick={()=>props.changeTemp(props.Second, props.setSecond)}>Second</div>,
-                    <div className="box 3th" onClick={()=>props.changeTemp(props.Third, props.setThird)}>Third</div>,
-                    <div className="box 4th" onClick={()=>props.changeTemp(props.Fourth, props.setFourth)}>Four</div>,
-                    <div className="box 5th" onClick={()=>props.changeTemp(props.Fifth, props.setFifth)}>Five</div>,
-                    <div className="box 6th" onClick={()=>props.changeTemp(props.Sixth, props.setSixth)}>Six</div>,
-                    <div className="box 7th" onClick={()=>props.changeTemp(props.Seventh, props.setSeventh)}>Seven</div>,
-                    <div className="box 8th" onClick={()=>props.changeTemp(props.Eigth, props.setEigth)}>Eight</div>,
-                    <div className="box 9th" onClick={()=>props.changeTemp(props.Ninth, props.setNinth)}>Nine</div>,
-                    <div className="box 10th" onClick={()=>props.changeTemp(props.Tenth, props.setTenth)}>Ten</div>,
-                    <div className="box 11th" onClick={()=>props.changeTemp(props.Eleventh, props.setEleventh)}>Eleven</div>,
-                    <div className="box 12th" onClick={()=>props.changeTemp(props.Twelth, props.setTwelth)}>Twelve</div>,]
+    const elements = [<div className="box 1st" onClick={()=>props.changeTemp(props.First, props.setFirst)}>
+                        <img src={require('./modi.png')} alt=""></img>
+                        <h2>Modi</h2>
+                    </div>,
+                    <div className="box 2nd" onClick={()=>props.changeTemp(props.Second, props.setSecond)}>
+                        <img src={require('./rahul.png')} alt=""></img>
+                        <h2>Rahul</h2>
+                    </div>,
+                    <div className="box 3th" onClick={()=>props.changeTemp(props.Third, props.setThird)}>
+                        <img src={require('./homelander.png')} alt=""></img>
+                        <h2>Homelander</h2>
+                    </div>,
+                    <div className="box 4th" onClick={()=>props.changeTemp(props.Fourth, props.setFourth)}>
+                        <img src={require('./tom.png')} alt=""></img>
+                        <h2>Tom</h2>
+                    </div>,
+                    <div className="box 5th" onClick={()=>props.changeTemp(props.Fifth, props.setFifth)}>
+                        <img src={require('./jerry.png')} alt=""></img>
+                        <h2>Jerry</h2>
+                    </div>,
+                    <div className="box 6th" onClick={()=>props.changeTemp(props.Sixth, props.setSixth)}>
+                        <img src={require('./rob.png')} alt=""></img>
+                        <h2>Robb</h2>
+                    </div>,
+                    <div className="box 7th" onClick={()=>props.changeTemp(props.Seventh, props.setSeventh)}>
+                        <img src={require('./michael.png')} alt=""></img>
+                        <h2>Michael</h2> 
+                    </div>,
+                    <div className="box 8th" onClick={()=>props.changeTemp(props.Eigth, props.setEigth)}>
+                        <img src={require('./dwight.png')} alt=""></img>
+                        <h2>Dwight</h2>
+                    </div>,
+                    <div className="box 9th" onClick={()=>props.changeTemp(props.Ninth, props.setNinth)}>
+                        <img src={require('./monke.png')} alt=""></img>
+                        <h2>Monke</h2>
+                    </div>,
+                    <div className="box 10th" onClick={()=>props.changeTemp(props.Tenth, props.setTenth)}>
+                        <img src={require('./trump.png')} alt=""></img>
+                        <h2>Trump</h2>
+                    </div>,
+                    <div className="box 11th" onClick={()=>props.changeTemp(props.Eleventh, props.setEleventh)}>
+                        <img src={require('./walter.png')} alt=""></img>
+                        <h2>Walter</h2>
+                    </div>,
+                    <div className="box 12th" onClick={()=>props.changeTemp(props.Twelth, props.setTwelth)}>
+                        <img src={require('./saul.png')} alt=""></img>
+                        <h2>Saul</h2>
+                    </div>,]
     
     const shuffled = [...elements];
     for (let i = shuffled.length - 1; i > 0; i--) {

@@ -3,13 +3,34 @@
     top: 15vh;
     right: 5vw;
 }
+
+@font-face {
+    font-family: hi;
+    src: url(HelpMe.ttf);
+  }
   
 .one{
+    padding-left: 10vw;
+    padding-right: 10vw;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-items: center;
     text-align: center;
 }
 
 .box{
-    height: 10vh;
+    height: 20vh;
+    width: 20vh;
+}
+
+img{
+    height: 15vh;
+    width: auto;
+}
+
+.h1{
+    font-size: 400%;
+    font-family: hi;
+    color: rgb(111, 0, 0);
 }
