@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/memory/static/css/main.29ee9b8b.css",
+    "main.js": "/memory/static/js/main.b47902be.js",
+    "static/media/trump.png": "/memory/static/media/trump.586b940c8283605625aa.png",
+    "static/media/michael.png": "/memory/static/media/michael.e389fff7aa47ee82492e.png",
+    "static/media/jerry.png": "/memory/static/media/jerry.4537a83fe7a9642bd8de.png",
+    "static/media/walter.png": "/memory/static/media/walter.d6021cf3dfccac0dcb93.png",
+    "static/media/rob.png": "/memory/static/media/rob.fe2d6be2958e8751941a.png",
+    "static/media/tom.png": "/memory/static/media/tom.51ec826d13fb0a9f6db7.png",
+    "static/media/homelander.png": "/memory/static/media/homelander.3f694bf6963d6d8fa141.png",
+    "static/media/modi.png": "/memory/static/media/modi.169a80828d02a1bceea5.png",
+    "static/media/dwight.png": "/memory/static/media/dwight.e3f562ced01063a62004.png",
+    "static/media/HelpMe.ttf": "/memory/static/media/HelpMe.fd5be38d979198bf9007.ttf",
+    "static/media/monke.png": "/memory/static/media/monke.681cd86cc999c98d287e.png",
+    "static/media/rahul.png": "/memory/static/media/rahul.a3f71d53079ab3dc20b9.png",
+    "static/media/saul.png": "/memory/static/media/saul.7e23a07eafd54ae1c2a0.png",
+    "static/media/Cinzel-VariableFont_wght.ttf": "/memory/static/media/Cinzel-VariableFont_wght.650f32e0aef902c7fee3.ttf",
+    "index.html": "/memory/index.html",
+    "main.29ee9b8b.css.map": "/memory/static/css/main.29ee9b8b.css.map",
+    "main.b47902be.js.map": "/memory/static/js/main.b47902be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29ee9b8b.css",
+    "static/js/main.b47902be.js"
+  ]
+}
